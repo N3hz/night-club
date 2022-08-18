@@ -1,10 +1,11 @@
-import "./App.css";
+import "bulma/css/bulma.css";
 import { Navbar } from "./components/navbar/navbar";
 
 export const App = () => {
   return (
-    <div>
+    <>
       <Navbar />
-    </div>
+      <div className="d-body"></div>
+    </>
   );
 };
