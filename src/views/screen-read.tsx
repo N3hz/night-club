@@ -1,5 +1,5 @@
 import React from "react";
 
-export const ScreenManga = () => {
+export const ScreenRead = () => {
   return <div>screen-maga</div>;
 };
