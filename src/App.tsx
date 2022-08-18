@@ -1,5 +1,10 @@
 import "./App.css";
+import { Navbar } from "./components/navbar/navbar";
 
 export const App = () => {
-  return <p>Somehing</p>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 };
