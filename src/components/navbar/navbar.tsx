@@ -11,14 +11,17 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className="navbar" role="navigation" aria-label="main navigation">
+      <nav
+        className="navbar is-black d-mg"
+        role="navigation"
+        aria-label="main navigation"
+        style={{ backgroundColor: "black" }}
+      >
         <div className="navbar-brand">
-          <a className="navbar-item" href="">
-            <img
-              src="https://bulma.io/images/bulma-logo.png"
-              width="112"
-              height="28"
-            />
+          <a className="navbar-item is-hidden-touch" href="">
+            <b className="d-text-color" style={{ fontSize: 20 }}>
+              Home
+            </b>
           </a>
 
           <a
@@ -28,6 +31,7 @@ export const Navbar = () => {
             aria-expanded="false"
             data-target="navbarBasicExample"
             onClick={navClick}
+            style={{ color: "#e4027a" }}
           >
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -35,12 +39,34 @@ export const Navbar = () => {
           </a>
         </div>
 
-        <div id="navbarBasicExample" className={navClass}>
+        <div
+          id="navbarBasicExample"
+          className={navClass}
+          style={{ backgroundColor: "black" }}
+        >
           <div className="navbar-start"></div>
 
           <div className="navbar-end">
-            <a className="navbar-item">Home</a>
-            <a className="navbar-item">Documentation</a>
+            <a
+              className="navbar-item"
+              style={{
+                color: "#6bb6da",
+                fontSize: 14,
+                backgroundColor: "black",
+              }}
+            >
+              Help
+            </a>
+            <a
+              className="navbar-item"
+              style={{
+                color: "#6bb6da",
+                fontSize: 14,
+                backgroundColor: "black",
+              }}
+            >
+              About Us
+            </a>
           </div>
         </div>
       </nav>

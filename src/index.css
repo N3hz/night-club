@@ -1,7 +1,25 @@
-.d-body {
-    background-color: black;
-    color: #72c0e4;
+html {
+    height: 100%;
+    background-color: black !important;
 }
-.d-a{
-    color: #e4027a;
+body{
+    color: #6bb6da !important;
+}
+.d-text-color{
+    color: #e4027a !important;
+}
+.d-mg{
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+.d-mg-2{
+    margin-top: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 2em;
+}
+.text-justify{
+    text-align: justify;
 }
