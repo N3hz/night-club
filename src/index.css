@@ -5,13 +5,19 @@ html {
 body{
     color: #6bb6da !important;
 }
-.d-text-color{
-    color: #e4027a !important;
+.is-pink{
+    background-color: '#e4027a' !important;
 }
 .d-mg{
     margin-top: 2em;
     margin-left: 2em;
     margin-right: 2em;
+    margin-bottom: 2em;
+}
+.d-mg-1{
+    margin-top: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
     margin-bottom: 2em;
 }
 .d-mg-2{

@@ -1,75 +1,32 @@
 import React, { useState } from "react";
 
 export const Navbar = () => {
-  const [active, setActive] = useState(false);
-
-  const navClick = () => {
-    setActive(!active);
-  };
-
-  const navClass = active ? "navbar-menu is-active" : "navbar-menu";
-
   return (
-    <>
-      <nav
-        className="navbar is-black d-mg"
-        role="navigation"
-        aria-label="main navigation"
-        style={{ backgroundColor: "black" }}
-      >
-        <div className="navbar-brand">
-          <a className="navbar-item is-hidden-touch" href="">
-            <b className="d-text-color" style={{ fontSize: 20 }}>
-              Home
-            </b>
-          </a>
-
-          <a
-            role="button"
-            className="navbar-burger"
-            aria-label="menu"
-            aria-expanded="false"
-            data-target="navbarBasicExample"
-            onClick={navClick}
-            style={{ color: "#e4027a" }}
+    <div className="d-mg-1">
+      <div className="dropdown is-hoverable">
+        <div className="dropdown-trigger">
+          <button
+            className="button is-black"
+            aria-haspopup="true"
+            aria-controls="dropdown-menu"
           >
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a>
+            <span>Proyectos</span>
+            <span className="icon is-small">
+              <i className="fas fa-angle-down" aria-hidden="true"></i>
+            </span>
+          </button>
         </div>
-
-        <div
-          id="navbarBasicExample"
-          className={navClass}
-          style={{ backgroundColor: "black" }}
-        >
-          <div className="navbar-start"></div>
-
-          <div className="navbar-end">
-            <a
-              className="navbar-item"
-              style={{
-                color: "#6bb6da",
-                fontSize: 14,
-                backgroundColor: "black",
-              }}
-            >
-              Help
-            </a>
-            <a
-              className="navbar-item"
-              style={{
-                color: "#6bb6da",
-                fontSize: 14,
-                backgroundColor: "black",
-              }}
-            >
-              About Us
+        <div className="dropdown-menu" id="dropdown-menu" role="menu">
+          <div
+            className="dropdown-content"
+            style={{ backgroundColor: "black" }}
+          >
+            <a href="#" className="dropdown-item">
+              Rosas & Champaña
             </a>
           </div>
         </div>
-      </nav>
-    </>
+      </div>
+    </div>
   );
 };
