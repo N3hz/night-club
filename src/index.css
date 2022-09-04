@@ -5,8 +5,11 @@ html {
 body{
     color: #6bb6da !important;
 }
+.is-blue{
+    color: #6bb6da !important;
+}
 .is-pink{
-    background-color: '#e4027a' !important;
+    background-color: '#e4087e' !important;
 }
 .d-mg{
     margin-top: 2em;
@@ -18,6 +21,12 @@ body{
     margin-top: 2em;
     margin-left: 3em;
     margin-right: 3em;
+    margin-bottom: 2em;
+}
+.d-mg-1-5{
+    margin-top: 2em;
+    margin-left: 3.8em;
+    margin-right: 3.8em;
     margin-bottom: 2em;
 }
 .d-mg-2{
