@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 export const Comentary = ({
   classDiv,
@@ -9,14 +9,26 @@ export const Comentary = ({
   idMenu: "Updates" | "Memes";
   idMessage: number;
 }) => {
-  const addComentary = () => {
-    console.log("Add a new comentary");
+  const [formState, setFormState] = useState({
+    userName: "",
+    comentary: "",
+  });
+  const { userName, comentary } = formState;
+
+  const onInputChange = ({ target }: any) => {
+    const { name, value } = target;
+    setFormState({
+      ...formState,
+      [name]: value,
+    });
   };
 
-  console.log({
-    idMenu,
-    idMessage,
-  });
+  const addComentary = () => {
+    console.log("Add a new comentary", {
+      userName,
+      comentary,
+    });
+  };
 
   return (
     <div className={classDiv}>
@@ -31,7 +43,9 @@ export const Comentary = ({
             type="text"
             placeholder="Text input"
             style={{ backgroundColor: "black", color: "white", fontSize: 12 }}
-            value={"Anónimo"}
+            name="userName"
+            value={userName}
+            onChange={onInputChange}
           />
         </div>
       </div>
@@ -46,6 +60,9 @@ export const Comentary = ({
             type="text"
             placeholder="Find a repository"
             style={{ backgroundColor: "black", color: "white", fontSize: 12 }}
+            name="comentary"
+            value={comentary}
+            onChange={onInputChange}
           />
         </p>
         <p className="control">

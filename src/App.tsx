@@ -3,7 +3,7 @@ import { AppRouter } from "./router/app-router";
 
 export const App = () => {
   return (
-    <div className="container is-max-desktop">
+    <div className="container">
       <AppRouter />
     </div>
   );
