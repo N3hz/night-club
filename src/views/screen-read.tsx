@@ -114,7 +114,14 @@ export const ScreenRead = () => {
         <div className="column d-mg">
           {chapterSelected ? (
             chapterSelected.map((x, index) => {
-              return <img key={index} src={x.routeImage} alt={x.alt} />;
+              return (
+                <img
+                  key={index}
+                  src={x.routeImage}
+                  alt={x.alt}
+                  style={{ cursor: "pointer" }}
+                />
+              );
             })
           ) : (
             <></>
