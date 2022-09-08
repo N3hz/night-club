@@ -32,6 +32,7 @@ export const Memes = () => {
           },
         }}
         beforeSlide={hideBlock}
+        style={{ maxWidth: 700 }}
       >
         {memes.map((x, index) => (
           <div key={index}>

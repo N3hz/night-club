@@ -28,7 +28,7 @@ export const Navbar = () => {
           >
             {publications.map((x, index) => (
               <Link
-                to="/read"
+                to={`/read?q=${x.id}`}
                 className="dropdown-item"
                 style={{ color: "#e4087e" }}
                 key={index}

@@ -11,6 +11,19 @@ body{
 .is-pink{
     background-color: '#e4087e' !important;
 }
+
+.d-mg-cover{
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+
+.d-mg-description{
+    margin-top: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
 .d-mg{
     margin-top: 2em;
     margin-left: 2em;

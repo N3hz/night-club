@@ -1,7 +1,6 @@
 import { Navbar } from "../navbar/navbar";
 import { Updates } from "./updates";
 import { Memes } from "./memes";
-import { Staff } from "./staff";
 
 export const FirstPage = () => {
   return (
@@ -29,12 +28,6 @@ export const FirstPage = () => {
       <div className="columns">
         <div className="column d-mg-1">
           <Memes />
-        </div>
-      </div>
-
-      <div className="columns">
-        <div className="column d-mg-1">
-          <Staff />
         </div>
       </div>
     </>

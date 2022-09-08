@@ -1,4 +1,5 @@
 export interface IListOfPublications {
+  id: number;
   imageRoute: any;
   title: string;
 }

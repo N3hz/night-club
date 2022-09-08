@@ -32,6 +32,7 @@ export const Updates = () => {
           },
         }}
         beforeSlide={hideBlock}
+        style={{ maxWidth: 700 }}
       >
         {updates.map((x, index) => (
           <div key={index}>
