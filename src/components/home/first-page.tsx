@@ -1,7 +1,7 @@
 import { Navbar } from "../navbar/navbar";
 import { Updates } from "./updates";
 import { Memes } from "./memes";
-import { UseBD } from "../../bd/home/bd";
+import { UseBD } from "../../bd/bd";
 
 export const FirstPage = () => {
   const { imageRoutes } = UseBD();

@@ -4,7 +4,7 @@ import {
   IListUpdates,
   IImageRouter,
   IIcons,
-} from "../../interfaces/home/IBD";
+} from "../interfaces/home/IBD";
 
 export const UseBD = () => {
   const origin: string = "https://drive.google.com/uc?export=view&id=";

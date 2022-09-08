@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Carousel from "nuka-carousel";
-import { UseBD } from "../../bd/home/bd";
+import { UseBD } from "../../bd/bd";
 import { Comentary } from "./comentary";
 
 export const Memes = () => {

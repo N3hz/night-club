@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useLocation } from "react-router-dom";
-import { UseBD } from "../bd/home/bd";
+import { UseBD } from "../bd/bd";
 import { IChapterImages } from "../interfaces/home/IBD";
 
 export const ScreenRead = () => {

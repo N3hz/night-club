@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { UseBD } from "../../bd/home/bd";
+import { UseBD } from "../../bd/bd";
 
 export const Navbar = () => {
   const { publications } = UseBD();
