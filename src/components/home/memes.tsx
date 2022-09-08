@@ -36,7 +36,7 @@ export const Memes = () => {
       >
         {memes.map((x, index) => (
           <div key={index}>
-            <img src={x.imageRoute} alt="" />
+            <img src={x.imageRoute} alt={x.alt} />
             <p
               onClick={() => changeBlock(x.id)}
               style={{ fontSize: 13, cursor: "pointer" }}

@@ -5,8 +5,10 @@ import { Comentary } from "./comentary";
 
 export const Updates = () => {
   const { updates } = UseBD();
+
   const [coments, setComents] = useState(false);
   const [comentsId, setComentsId] = useState(0);
+
   const classDiv = coments ? "is-block" : "is-hidden";
   const changeBlock = (id: number) => {
     setComents(!coments);
@@ -36,7 +38,7 @@ export const Updates = () => {
       >
         {updates.map((x, index) => (
           <div key={index}>
-            <img src={x.imageRoute} alt="" />
+            <img src={x.imageRoute} alt={x.alt} />
             <p
               onClick={() => changeBlock(x.id)}
               style={{ fontSize: 13, cursor: "pointer" }}
