@@ -95,7 +95,7 @@ export const ScreenRead = () => {
                     <td>{x.nameChapter}</td>
                     <td>
                       <img
-                        style={{ width: 20 }}
+                        style={{ width: 20, cursor: "pointer" }}
                         src={eye.route}
                         alt={eye.alt}
                         onClick={() =>
@@ -114,14 +114,7 @@ export const ScreenRead = () => {
         <div className="column d-mg">
           {chapterSelected ? (
             chapterSelected.map((x, index) => {
-              return (
-                <img
-                  key={index}
-                  src={x.routeImage}
-                  alt={x.alt}
-                  style={{ cursor: "pointer" }}
-                />
-              );
+              return <img key={index} src={x.routeImage} alt={x.alt} />;
             })
           ) : (
             <></>
