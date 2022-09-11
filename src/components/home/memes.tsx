@@ -39,7 +39,7 @@ export const Memes = () => {
             <img src={x.imageRoute} alt={x.alt} />
             <p
               onClick={() => changeBlock(x.id)}
-              style={{ fontSize: 13, cursor: "pointer" }}
+              style={{ fontSize: 13, cursor: "pointer", display: "none" }}
             >
               Comentarios
             </p>
