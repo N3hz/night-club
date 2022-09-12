@@ -123,7 +123,7 @@ export const UseBD = () => {
           listImagesChapter: [
             {
               numberPage: 1,
-              routeImage: `${origin}12eF_-u9qDx-eayrA1XF8YKJqjMn1lNWZ`,
+              routeImage: `${origin}1vQlpcnFIDL1z6JTyLP8a1vSj36oLL9L2`,
               alt: "",
             },
           ],
