@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/night-club/static/css/main.ecfc9032.css",
-    "main.js": "/night-club/static/js/main.5b3daa53.js",
+    "main.css": "/night-club/static/css/main.346a1927.css",
+    "main.js": "/night-club/static/js/main.692e9064.js",
     "index.html": "/night-club/index.html",
-    "main.ecfc9032.css.map": "/night-club/static/css/main.ecfc9032.css.map",
-    "main.5b3daa53.js.map": "/night-club/static/js/main.5b3daa53.js.map"
+    "main.346a1927.css.map": "/night-club/static/css/main.346a1927.css.map",
+    "main.692e9064.js.map": "/night-club/static/js/main.692e9064.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecfc9032.css",
-    "static/js/main.5b3daa53.js"
+    "static/css/main.346a1927.css",
+    "static/js/main.692e9064.js"
   ]
 }
