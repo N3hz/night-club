@@ -73,13 +73,6 @@ export const ScreenRead = () => {
             </strong>
             <span
               style={{ fontSize: letraContain }}
-              className="is-hidden-tablet"
-            >
-              {publication.description.substring(0, 165)}
-            </span>
-            <span
-              style={{ fontSize: letraContain }}
-              className="is-hidden-mobile"
             >
               {publication.description}
             </span>
