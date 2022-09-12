@@ -4,6 +4,7 @@ export interface IListOfPublications {
   alt: string;
   title: string;
   description: string;
+  rating: number;
   chapters: IChapter[];
 }
 

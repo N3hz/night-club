@@ -19,13 +19,26 @@ body{
 }
 
 .d-mg-description{
-    margin-top: 2em;
+    margin-left: 2em;
     margin-right: 2em;
-    margin-bottom: 2em;
+}
+
+.d-mg-imagen{
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 .d-mg-bott{
     margin-bottom: 4em;
+}
+
+.d-mg-topp{
+    margin-top: 1em;
+}
+
+.d-mg-lr{
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 .d-mg{
@@ -55,3 +68,9 @@ body{
 .text-justify{
     text-align: justify;
 }
+
+.columns {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 0 !important;
+  }
